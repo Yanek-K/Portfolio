@@ -2,9 +2,9 @@ import React from "react";
 import "./index.css";
 import { NavLink } from "react-router-dom";
 
-import logo from "./../../Assets/logo.png";
-import github from "./../../Assets/github.png";
-import linkedin from "./../../Assets/linkedin.png";
+import logo from "./../../Assets/Home/logo.png";
+import github from "./../../Assets/Home/github.png";
+import linkedin from "./../../Assets/Home/linkedin.png";
 
 const Navbar = () => {
   return (

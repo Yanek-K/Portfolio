@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "./../../Assets/logo.png";
+import Projects from "../Projects";
+import logo from "./../../Assets/Home/logo.png";
 import "./index.css";
 
 const Homepage = () => {

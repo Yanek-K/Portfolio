@@ -1,0 +1,125 @@
+.home__wrap {
+  display: flex;
+  align-items: center;
+  background-color: #201f1c;
+  height: 100vh;
+  font-family: "papyrus";
+}
+.inner-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -12rem;
+}
+.home__logo {
+  width: 33%;
+  height: auto;
+  margin-left: 3rem;
+  flex-shrink: 1;
+  /* position: absolute;
+  left: -3%;
+  top: 30%; */
+}
+
+.home__main {
+  flex-shrink: 2;
+  margin-left: 0rem;
+  /* width: 600px; */
+  margin-top: 1rem;
+}
+
+.home__main > h2 {
+  color: #918d46;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.home__main > p {
+  color: #f0ede4;
+
+  font-size: 1.7rem;
+}
+
+.buttons {
+  display: flex;
+  width: 80%;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  /* justify-content: space-evenly; */
+}
+
+.projects {
+  background-color: #918d46;
+  padding: 0.8rem;
+  border-radius: 0px;
+  color: white;
+  margin-right: 5rem;
+  width: 40%;
+  text-align: center;
+}
+
+.resume {
+  background-color: #918d46;
+  padding: 0.8rem;
+  border-radius: 0px;
+  color: white;
+  width: 40%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1500px) {
+  .inner-wrap {
+    margin-top: -15rem;
+  }
+  .home__logo {
+    margin-left: -3rem;
+    width: 35%;
+  }
+  .home__main {
+    margin-left: 0rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .inner-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8rem;
+  }
+  .home__logo {
+    margin-left: 0rem;
+    margin-bottom: 6rem;
+    width: 35%;
+  }
+  .home__main {
+    margin-left: 0rem;
+    text-align: center;
+  }
+  .home__main > h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+  }
+
+  .home__main > p {
+    font-size: 1.2rem;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+  .projects {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .resume {
+    width: 30%;
+    margin: 0 auto;
+  }
+}

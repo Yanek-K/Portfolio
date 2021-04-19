@@ -5,7 +5,7 @@ import "./index.css";
 
 const Homepage = () => {
   return (
-    <div className="home__wrap">
+    <div className="home__wrap" id="Home">
       <div className="inner-wrap">
         <img src={logo} alt="logo" className="home__logo" />
         <div className="home__main">

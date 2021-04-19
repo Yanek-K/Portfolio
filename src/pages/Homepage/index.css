@@ -8,7 +8,7 @@
 .inner-wrap {
   display: flex;
   justify-content: space-evenly;
-  margin-top: -12rem;
+  /* margin-top: 12rem; */
 }
 .home__logo {
   width: 33%;
@@ -67,9 +67,6 @@
 }
 
 @media only screen and (max-width: 1500px) {
-  .inner-wrap {
-    margin-top: -15rem;
-  }
   .home__logo {
     margin-left: -3rem;
     width: 35%;
@@ -85,7 +82,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -8rem;
   }
   .home__logo {
     margin-left: 0rem;

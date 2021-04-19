@@ -1,37 +1,144 @@
 .wrap {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   width: 100%;
-  height: 85px;
+  height: 75px;
   font-family: "papyrus";
   background-color: #201f1c;
   border-bottom: 2px solid #f0ede4;
+  position: fixed;
 }
-
-.nav {
-  display: flex;
-  padding-top: 0.8rem;
-}
-
-.btn {
-  display: flex;
-  text-decoration: none;
-  color: white;
-  margin-right: 2.5rem;
-  font-size: 1.5rem;
-}
-
 .logo {
-  width: 70px;
+  width: 65px;
   height: auto;
-  margin-left: 4rem;
+  padding-left: 1.4rem;
+  margin-bottom: 0.7rem;
 }
-.links {
+.nav {
+  display: none;
 }
+
 .links > img {
-  width: 35px;
-  height: 35px;
-  padding-right: 2rem;
-  padding-top: 1rem;
+  width: 30px;
+  height: 30px;
+  padding-right: 3rem;
+  margin-bottom: 0.4rem;
+}
+
+.burgerMenu {
+  margin-right: 1rem;
+  cursor: "pointer";
+  color: white;
+  margin-bottom: 0.7rem;
+}
+
+@media only screen and (min-width: 650px) {
+  .wrap {
+    align-items: center;
+    height: 85px;
+  }
+
+  .nav {
+    display: flex;
+    padding-top: 0.8rem;
+  }
+
+  .btn {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-right: 1.4rem;
+  }
+
+  .btn > p {
+    font-size: 1.2rem;
+  }
+  .active {
+    border-bottom: 2px solid #e55d6f;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+    margin-left: 1.4rem;
+    margin-bottom: -0.7rem;
+  }
+
+  .links > img {
+    width: 25px;
+    height: 25px;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin-left: -1.2rem;
+    margin-bottom: 0rem;
+  }
+  .burgerMenu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .btn {
+    margin-right: 2.5rem;
+  }
+
+  .btn > p {
+    font-size: 1.4rem;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .links > img {
+    width: 27px;
+    height: 27px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .btn {
+    margin-right: 3rem;
+  }
+  .btn > p {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    width: 70px;
+    margin-left: 3rem;
+  }
+
+  .links > img {
+    width: 27px;
+    height: 27px;
+    margin-right: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .logo {
+    margin-left: 3rem;
+  }
+
+  .links > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .logo {
+    margin-left: 9rem;
+  }
+
+  .btn {
+    margin-right: 3.5rem;
+  }
+
+  .links {
+    margin-right: 5rem;
+  }
 }

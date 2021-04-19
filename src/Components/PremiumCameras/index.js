@@ -13,7 +13,7 @@ const PremiumCameras = () => {
         </div>
         <div className="cameras__right">
           <h2>
-            An E-Commerce store for Premium Cameras LTD. Based in Toronto, the
+            An E-Commerce store for Premium Cameras Co. Based in Toronto, the
             store specializes in Vintage Film Cameras and ships worldwide.
           </h2>
           <div className="cameras__buttons">

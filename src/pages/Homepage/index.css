@@ -1,101 +1,69 @@
 .home__wrap {
   display: flex;
-  align-items: center;
   background-color: #201f1c;
   height: 100vh;
   font-family: "papyrus";
+  color: #f0ede4;
 }
+
 .inner-wrap {
   display: flex;
-  justify-content: space-evenly;
-  /* margin-top: 12rem; */
+  flex-direction: column;
+  align-items: center;
+  margin-top: 11rem;
 }
 .home__logo {
-  width: 33%;
-  height: auto;
-  margin-left: 3rem;
-  flex-shrink: 1;
-  /* position: absolute;
-  left: -3%;
-  top: 30%; */
-}
-
-.home__main {
-  flex-shrink: 2;
   margin-left: 0rem;
-  /* width: 600px; */
-  margin-top: 1rem;
+  margin-bottom: 6rem;
+  width: 35%;
 }
-
+.home__main {
+  text-align: center;
+}
 .home__main > h2 {
-  color: #918d46;
-  font-size: 4rem;
+  font-size: 2.3rem;
   font-weight: 200;
+  margin-bottom: 1.5rem;
+  color: #918d46;
 }
 
 .home__main > p {
-  color: #f0ede4;
-
-  font-size: 1.7rem;
+  font-size: 1rem;
 }
 
 .buttons {
   display: flex;
-  width: 80%;
-  margin-top: 1.5rem;
-  font-size: 1.3rem;
-  /* justify-content: space-evenly; */
+  align-items: center;
+  width: 100%;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }
-
 .projects {
+  width: 30%;
+  height: 20px;
+  margin: 0 auto;
   background-color: #918d46;
   padding: 0.8rem;
-  border-radius: 0px;
+  border-radius: 10px;
   color: white;
   margin-right: 5rem;
-  width: 40%;
   text-align: center;
 }
 
 .resume {
+  width: 30%;
+  height: 20px;
+  margin: 0 auto;
   background-color: #918d46;
   padding: 0.8rem;
-  border-radius: 0px;
+  border-radius: 10px;
   color: white;
-  width: 40%;
   text-align: center;
 }
 
-@media only screen and (max-width: 1500px) {
-  .home__logo {
-    margin-left: -3rem;
-    width: 35%;
-  }
-  .home__main {
-    margin-left: 0rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .inner-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .home__logo {
-    margin-left: 0rem;
-    margin-bottom: 6rem;
-    width: 35%;
-  }
-  .home__main {
-    margin-left: 0rem;
-    text-align: center;
-  }
+@media only screen and (min-width: 400px) {
   .home__main > h2 {
     font-size: 3rem;
-    font-weight: 200;
-    margin-bottom: 0.5rem;
   }
 
   .home__main > p {
@@ -103,19 +71,125 @@
   }
 
   .buttons {
-    display: flex;
-    align-items: center;
-    width: 100%;
     font-size: 1rem;
+  }
+
+  .projects {
+    width: 25%;
+    height: 20px;
+  }
+
+  .resume {
+    width: 25%;
+    height: 20px;
+  }
+}
+
+/* @media only screen and (min-width: 800px) {
+  .home__logo {
+    margin-left: -3rem;
+    width: 35%;
+  }
+  .home__main {
+    margin-left: 0rem;
+  }
+} */
+
+@media only screen and (min-width: 900px) {
+  .inner-wrap {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0rem;
+  }
+  .home__logo {
+    width: 30%;
+    height: auto;
+    /* margin-left: 3rem; */
+    margin-bottom: 0rem;
+  }
+
+  .home__main {
+    margin-left: 0rem;
+  }
+
+  .home__main > h2 {
+    font-size: 3rem;
+  }
+
+  .home__main > p {
+    font-size: 1.5rem;
+  }
+
+  .buttons {
+    width: 100%;
     margin-top: 1.5rem;
+    font-size: 1.3rem;
+    /* justify-content: center; */
+  }
+
+  .projects {
+    width: 26%;
+  }
+
+  .resume {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .home__logo {
+    width: 27%;
+  }
+  .home__main > h2 {
+    font-size: 3.3rem;
+  }
+
+  .home__main > p {
+    font-size: 1.5rem;
+  }
+
+  .buttons {
+    margin-top: 2rem;
+  }
+  .projects {
+    width: 26%;
+  }
+
+  .resume {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .home__logo {
+    width: 25%;
+  }
+  .home__main > h2 {
+    font-size: 3.5rem;
+  }
+
+  .home__main > p {
+    font-size: 1.6rem;
+  }
+
+  .buttons {
+    margin-top: 3rem;
   }
   .projects {
     width: 30%;
-    margin: 0 auto;
   }
 
   .resume {
     width: 30%;
-    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .home__logo {
+    width: 25%;
+    margin-left: 5rem;
+  }
+  .home__main {
+    margin-left: 1rem;
   }
 }

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 1rem auto 3rem;
+  margin: 1rem auto 2rem;
 }
 
 .cameras__main {
@@ -127,7 +127,7 @@
 @media only screen and (min-width: 900px) {
   .cameras__wrap {
     width: 100%;
-    margin: 1rem auto 4rem;
+    margin: 1rem auto 3rem;
   }
 
   .cameras__main {
@@ -189,7 +189,7 @@
   }
 
   .premium__logo {
-    width: 70%;
+    width: 60%;
   }
 
   .premium__view {

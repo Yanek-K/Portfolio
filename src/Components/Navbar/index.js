@@ -40,12 +40,38 @@ const Navbar = () => {
         >
           <p>Projects</p>
         </Link>
-        <Link to="about" className="btn" activeStyle={{ color: "#e55d6f" }}>
+        <Link
+          smooth
+          spy={true}
+          to="About"
+          offset={-100}
+          duration={1400}
+          className="btn"
+          activeClass="active"
+          activeClassName="active"
+          // activeStyle={{ color: "#e55d6f" }}
+        >
+          <p>About</p>
+        </Link>
+        <Link
+          smooth
+          spy={true}
+          to="Contact"
+          offset={-100}
+          duration={1400}
+          className="btn"
+          activeClass="active"
+          activeClassName="active"
+          // activeStyle={{ color: "#e55d6f" }}
+        >
+          <p>Contact</p>
+        </Link>
+        {/* <Link to="about" className="btn" activeStyle={{ color: "#e55d6f" }}>
           <p>About</p>
         </Link>
         <Link to="contact" className="btn" activeStyle={{ color: "#e55d6f" }}>
           <p>Contact</p>
-        </Link>
+        </Link> */}
         {/* <ul>
           <li className="btn">Home</li>
           <li className="btn">Projects</li>

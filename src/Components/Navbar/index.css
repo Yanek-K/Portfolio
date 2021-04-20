@@ -8,6 +8,7 @@
   background-color: #201f1c;
   border-bottom: 2px solid #f0ede4;
   position: fixed;
+  z-index: 100;
 }
 .logo {
   width: 65px;
@@ -17,6 +18,7 @@
 }
 .nav {
   display: none;
+  cursor: pointer;
 }
 .links {
   margin-left: -2rem;
@@ -51,6 +53,10 @@
     text-decoration: none;
     color: white;
     margin-right: 1.4rem;
+  }
+
+  .btn:hover {
+    color: #e55d6f;
   }
 
   .btn > p {

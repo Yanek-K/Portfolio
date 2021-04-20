@@ -13,11 +13,12 @@ const Projects = () => {
           <h2 className="project__info">E-Commerce Store</h2>
           <PremiumCameras />
         </div>
-        <div className="projects__smaltalk">
+        <div className="project__smaltalk">
           <h2 className="project__info">Chat Application</h2>
           <Smalltalk />
         </div>
         <div className="projects__reddit">
+          <h2 className="project__info">Reddit Channels</h2>
           <Reddit />
         </div>
       </div>

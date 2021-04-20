@@ -55,6 +55,11 @@
   margin-top: 3rem;
 }
 
+.cameras__project > a {
+  text-decoration: none;
+  color: white;
+}
+
 .cameras__project {
   background-color: #918d46;
   padding: 0.8rem;
@@ -63,7 +68,11 @@
   width: 25%;
   text-align: center;
   border-radius: 10px;
-  /* font-size: 1rem; */
+}
+
+.cameras__code > a {
+  text-decoration: none;
+  color: white;
 }
 
 .cameras__code {

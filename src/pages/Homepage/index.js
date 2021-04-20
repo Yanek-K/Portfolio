@@ -12,7 +12,7 @@ const Homepage = () => {
           <h2>Yanek K.</h2>
           <p>Front End Web Developer and Designer</p>
           <div className="buttons">
-            <div className="projects">My Projects</div>
+            {/* <div className="projects">My Projects</div> */}
             <div className="resume">Resume</div>
           </div>
         </div>

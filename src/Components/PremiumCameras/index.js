@@ -18,8 +18,20 @@ const PremiumCameras = () => {
             worldwide.
           </h2>
           <div className="cameras__buttons">
-            <div className="cameras__project">View Project</div>
-            <div className="cameras__code">View Code</div>
+            <div className="cameras__project">
+              <a href="https://www.premiumcameras.ca" target="_blank">
+                View Project
+              </a>
+            </div>
+            <div className="cameras__code">
+              {" "}
+              <a
+                href="https://github.com/Yanek-K/premium-cameras"
+                target="_blank"
+              >
+                View Code
+              </a>
+            </div>
           </div>
           <div className="cameras__tech">
             <p>Technologies Used:</p>

@@ -80,8 +80,12 @@ const Navbar = () => {
         </ul> */}
       </nav>
       <div className="links">
-        <img src={github} alt="github" />
-        <img src={linkedin} alt="linkedin" />
+        <a href="https://github.com/Yanek-K" target="_blank">
+          <img src={github} alt="github" />
+        </a>
+        <a href=" https://www.linkedin.com/in/yanek-k" target="_blank">
+          <img src={linkedin} alt="linkedin" />
+        </a>
       </div>
       <div className="burgerMenu">
         <MenuRoundedIcon />

@@ -1,14 +1,42 @@
 .contact {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
   background-color: #201f1c;
-  height: 65vh;
 }
 
-.contact__img__wrap {
-  display: flex;
-  align-items: right;
-  /* display: block; */
-  position: absolute;
-  top: 100;
-  right: 0;
-  /* width: 50%; */
+.contact > h2 {
+  font-family: "papyrus";
+  /* border-bottom: 1px solid white; */
+  font-size: 2rem;
+  /* font-size: 2.3rem; */
+  font-weight: 200;
+  margin-bottom: 1.5rem;
+  color: #918d46;
+  margin-top: 2rem;
+}
+
+.contact > p {
+  line-height: 3.5rem;
+  font-size: 1.2rem;
+  width: 75%;
+  font-family: "papyrus";
+  color: white;
+  word-spacing: 0.5rem;
+  /* margin-left: 1rem; */
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact > h2 {
+    font-size: 2.2rem;
+  }
+
+  .contact > p {
+    line-height: 4rem;
+    font-size: 1.4rem;
+  }
 }

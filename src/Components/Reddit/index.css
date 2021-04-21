@@ -135,7 +135,7 @@
   }
 
   .reddit__left {
-    width: 40%;
+    width: 35%;
   }
 
   .reddit__logo {
@@ -148,7 +148,7 @@
   }
 
   .reddit__right {
-    width: 50%;
+    width: 40%;
   }
 
   .reddit__right > h2 {
@@ -174,7 +174,7 @@
   }
 
   .reddit__tech__img {
-    width: 65%;
+    width: 70%;
     margin-top: 1rem;
   }
 }
@@ -193,11 +193,11 @@
   }
 
   .reddit__view {
-    width: 90%;
+    width: 80%;
   }
 
   .reddit__right {
-    width: 50%;
+    width: 40%;
   }
 
   .reddit__right > h2 {
@@ -212,14 +212,11 @@
   .reddit__tech {
     font-size: 1.4rem;
   }
-  .reddit__tech__img {
-    width: 60%;
-  }
 }
 
 @media only screen and (min-width: 1400px) {
   .reddit__wrap {
-    width: 90%;
+    width: 80%;
   }
 
   .reddit__view {
@@ -230,14 +227,17 @@
     margin-top: 3rem;
   }
   .reddit__project {
-    width: 20%;
+    width: 25%;
   }
 
   .reddit__code {
-    width: 20%;
+    width: 25%;
   }
   .reddit__tech__img {
     margin-top: 2rem;
+  }
+  .reddit__tech__img {
+    width: 65%;
   }
 }
 
@@ -245,9 +245,12 @@
   .reddit__wrap {
     width: 70%;
   }
+  .reddit__main {
+    margin-bottom: 7rem;
+  }
 
   .reddit__left {
-    width: 80%;
+    width: 70%;
     margin-left: 0rem;
     margin-right: 5rem;
   }
@@ -262,11 +265,14 @@
   }
 
   .reddit__right {
-    width: 100%;
+    width: 80%;
   }
 
   .reddit__right > h2 {
     /* font-family: "serif"; */
     font-size: 1.3rem;
+  }
+  .reddit__tech__img {
+    width: 55%;
   }
 }

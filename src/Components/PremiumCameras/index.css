@@ -144,7 +144,7 @@
   }
 
   .cameras__left {
-    width: 40%;
+    width: 35%;
   }
 
   .premium__logo {
@@ -157,7 +157,7 @@
   }
 
   .cameras__right {
-    width: 50%;
+    width: 40%;
   }
 
   .cameras__right > h2 {
@@ -202,11 +202,11 @@
   }
 
   .premium__view {
-    width: 90%;
+    width: 80%;
   }
 
   .cameras__right {
-    width: 50%;
+    width: 40%;
   }
 
   .cameras__right > h2 {
@@ -221,14 +221,11 @@
   .cameras__tech {
     font-size: 1.4rem;
   }
-  .cameras__tech__img {
-    width: 85%;
-  }
 }
 
 @media only screen and (min-width: 1400px) {
   .cameras__wrap {
-    width: 90%;
+    width: 80%;
   }
 
   .premium__view {
@@ -239,11 +236,11 @@
     margin-top: 3rem;
   }
   .cameras__project {
-    width: 20%;
+    width: 25%;
   }
 
   .cameras__code {
-    width: 20%;
+    width: 25%;
   }
   .cameras__tech__img {
     margin-top: 2rem;
@@ -255,8 +252,12 @@
     width: 70%;
   }
 
+  .cameras__main {
+    margin-bottom: 7rem;
+  }
+
   .cameras__left {
-    width: 80%;
+    width: 70%;
     margin-left: 0rem;
     margin-right: 5rem;
   }
@@ -271,11 +272,14 @@
   }
 
   .cameras__right {
-    width: 100%;
+    width: 80%;
   }
 
   .cameras__right > h2 {
     /* font-family: "serif"; */
     font-size: 1.3rem;
+  }
+  .cameras__tech__img {
+    width: 80%;
   }
 }

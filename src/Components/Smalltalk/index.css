@@ -135,7 +135,7 @@
   }
 
   .smalltalk__left {
-    width: 40%;
+    width: 35%;
   }
 
   .smalltalk__logo {
@@ -148,7 +148,7 @@
   }
 
   .smalltalk__right {
-    width: 50%;
+    width: 40%;
   }
 
   .smalltalk__right > h2 {
@@ -193,11 +193,11 @@
   }
 
   .smalltalk__view {
-    width: 90%;
+    width: 80%;
   }
 
   .smalltalk__right {
-    width: 50%;
+    width: 40%;
   }
 
   .smalltalk__right > h2 {
@@ -212,14 +212,11 @@
   .smalltalk__tech {
     font-size: 1.4rem;
   }
-  .smalltalk__tech__img {
-    width: 85%;
-  }
 }
 
 @media only screen and (min-width: 1400px) {
   .smalltalk__wrap {
-    width: 90%;
+    width: 80%;
   }
 
   .smalltalk__view {
@@ -230,11 +227,11 @@
     margin-top: 3rem;
   }
   .smalltalk__project {
-    width: 20%;
+    width: 25%;
   }
 
   .smalltalk__code {
-    width: 20%;
+    width: 25%;
   }
   .smalltalk__tech__img {
     margin-top: 2rem;
@@ -246,8 +243,12 @@
     width: 70%;
   }
 
+  .smalltalk__main {
+    margin-bottom: 7rem;
+  }
+
   .smalltalk__left {
-    width: 80%;
+    width: 70%;
     margin-left: 0rem;
     margin-right: 5rem;
   }
@@ -262,11 +263,14 @@
   }
 
   .smalltalk__right {
-    width: 100%;
+    width: 80%;
   }
 
   .smalltalk__right > h2 {
     /* font-family: "serif"; */
     font-size: 1.3rem;
+  }
+  .smalltalk__tech__img {
+    width: 75%;
   }
 }

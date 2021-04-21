@@ -8,7 +8,7 @@
 .about__wrap > h2 {
   font-family: "papyrus";
   /* border-bottom: 1px solid black; */
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 200;
   margin-bottom: 0rem;
   text-align: center;
@@ -17,13 +17,13 @@
 .about__info {
   columns: 25em;
   width: 80%;
-  padding: 2rem;
+  padding: 3rem;
   margin: 0 auto;
   text-align: center;
 }
 .about__info > p {
   line-height: 3.5rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: "papyrus";
   word-spacing: 0.5rem;
 }
@@ -34,9 +34,19 @@
 }
 
 @media only screen and (min-width: 1020px) {
+  .about__wrap > h2 {
+    font-family: "papyrus";
+    /* border-bottom: 1px solid black; */
+  }
+  .about {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .about__info > p {
     padding-right: 4rem;
     padding-left: 4rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -44,14 +54,19 @@
   .about__info {
     columns: 32em;
     width: 80%;
-    padding: 3rem;
   }
 }
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1660px) {
   .about__info {
     columns: 32em;
-    width: 80%;
-    padding: 3rem;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1820px) {
+  .about__info {
+    columns: 35em;
+    width: 65%;
   }
 }

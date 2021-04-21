@@ -16,6 +16,7 @@
   padding-left: 1.4rem;
   margin-bottom: 0.7rem;
   cursor: pointer;
+  z-index: 20;
 }
 .nav {
   display: none;

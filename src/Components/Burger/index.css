@@ -1,0 +1,25 @@
+.burger {
+  position: absolute;
+  right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 8rem;
+  height: 30rem;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s linear;
+  border-bottom: none;
+  /* border: 1px solid #918d46; */
+  border-radius: 20px;
+}
+
+.burger__btn > p {
+  margin-top: 5.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.burger__btn :hover {
+  color: #e55d6f;
+}

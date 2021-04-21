@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import { Link } from "react-scroll";
 
@@ -9,8 +9,11 @@ import linkedin from "./../../Assets/Home/linkedin.png";
 
 //MUI
 import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
+import Burger from "../Burger";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="wrap">
       <Link
@@ -84,7 +87,8 @@ const Navbar = () => {
         </a>
       </div>
       <div className="burgerMenu">
-        <MenuRoundedIcon />
+        <MenuRoundedIcon onClick={() => setOpen(!open)} />
+        <Burger open={open} />
       </div>
     </div>
   );

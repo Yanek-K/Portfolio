@@ -19,8 +19,18 @@ const Reddit = () => {
             and images posted to the site.
           </p>
           <div className="reddit__buttons">
-            <div className="reddit__project">View Project</div>
-            <div className="reddit__code">View Code</div>
+            <div className="reddit__project">
+              {" "}
+              <a href="https://www.notreddit.online/" target="_blank">
+                View Project
+              </a>
+            </div>
+            <div className="reddit__code">
+              {" "}
+              <a href="https://github.com/Yanek-K/Not_Reddit" target="_blank">
+                View Code
+              </a>
+            </div>
           </div>
           <div className="reddit__tech">
             <p>Technologies Used:</p>

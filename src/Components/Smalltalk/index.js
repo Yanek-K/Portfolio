@@ -19,8 +19,20 @@ const Smalltalk = () => {
             Likes, comments and history are all managed by Redux.
           </p>
           <div className="smalltalk__buttons">
-            <div className="smalltalk__project">View Project</div>
-            <div className="smalltalk__code">View Code</div>
+            <div className="smalltalk__project">
+              {" "}
+              <a href="https://www.small-talk.online/login" target="_blank">
+                View Project
+              </a>
+            </div>
+            <div className="smalltalk__code">
+              <a
+                href="https://github.com/Yanek-K/smalltalk-client"
+                target="_blank"
+              >
+                View Code
+              </a>
+            </div>
           </div>
           <div className="smalltalk__tech">
             <p>Technologies Used:</p>

@@ -47,6 +47,7 @@
 }
 
 .smalltalk__buttons {
+  height: 50px;
   display: flex;
   width: 100%;
   font-size: 1rem;
@@ -56,11 +57,23 @@
   margin-top: 3rem;
 }
 
+.smalltalk__project > a {
+  text-decoration: none;
+  color: white;
+  font-family: "papyrus";
+  font-size: 1.1rem;
+}
+
+.smalltalk__code > a {
+  text-decoration: none;
+  color: white;
+  font-family: "papyrus";
+  font-size: 1.1rem;
+}
 .smalltalk__project {
   background-color: #918d46;
   padding: 0.8rem;
   border-radius: 0px;
-  color: white;
   width: 25%;
   text-align: center;
   border-radius: 10px;
@@ -71,7 +84,6 @@
   background-color: #918d46;
   padding: 0.8rem;
   border-radius: 0px;
-  color: white;
   width: 25%;
   text-align: center;
   border-radius: 10px;
@@ -163,11 +175,11 @@
   }
 
   .smalltalk__project {
-    width: 23%;
+    width: 30%;
   }
 
   .smalltalk__code {
-    width: 23%;
+    width: 30%;
   }
 
   .smalltalk__tech {
@@ -234,6 +246,13 @@
   .smalltalk__code {
     width: 25%;
   }
+  .smalltalk__project > a {
+    font-size: 1.2rem;
+  }
+
+  .smalltalk__code > a {
+    font-size: 1.2rem;
+  }
   .smalltalk__tech__img {
     margin-top: 2rem;
   }
@@ -265,6 +284,14 @@
 
   .smalltalk__right {
     width: 80%;
+  }
+
+  .smalltalk__project {
+    width: 20%;
+  }
+
+  .smalltalk__code {
+    width: 20%;
   }
 
   .smalltalk__right > h2 {

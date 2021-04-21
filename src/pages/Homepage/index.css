@@ -85,16 +85,6 @@
   }
 }
 
-/* @media only screen and (min-width: 800px) {
-  .home__logo {
-    margin-left: -3rem;
-    width: 35%;
-  }
-  .home__main {
-    margin-left: 0rem;
-  }
-} */
-
 @media only screen and (min-width: 900px) {
   .inner-wrap {
     flex-direction: row;
@@ -104,7 +94,6 @@
   .home__logo {
     width: 30%;
     height: auto;
-    /* margin-left: 3rem; */
     margin-bottom: 0rem;
   }
 

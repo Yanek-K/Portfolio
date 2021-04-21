@@ -1,8 +1,10 @@
 import React from "react";
 import logo from "./../../Assets/Home/logo.png";
 import "./index.css";
-
+import Resume from "./../../Files/Resume.pdf";
 import { Link } from "react-scroll";
+import { Link as Linker } from "react-router-dom";
+import { Document, Page } from "react-pdf";
 
 const Homepage = () => {
   return (
@@ -26,7 +28,11 @@ const Homepage = () => {
             >
               My Projects
             </Link>
-            <div className="resume">Resume</div>
+            <div className="resume">
+              <a href={Resume} download>
+                Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>

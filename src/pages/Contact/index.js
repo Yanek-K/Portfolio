@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+
+//Images
 import geometry from "./../../Assets/About/geometry.png";
 
 const Contact = () => {

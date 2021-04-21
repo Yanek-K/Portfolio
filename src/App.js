@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import { HashLink } from "react-router-hash-link";
-import { Switch, Route } from "react-router-dom";
+//Components
 import Homepage from "./pages/Homepage";
 import Navbar from "./Components/Navbar";
 import Projects from "./pages/Projects";

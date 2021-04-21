@@ -7,7 +7,6 @@
 .about__wrap > h2 {
   display: flex;
   font-family: "papyrus";
-  /* border-bottom: 1px solid black; */
   font-size: 2rem;
   font-weight: 200;
   margin-bottom: 3rem;
@@ -41,8 +40,6 @@
 @media only screen and (min-width: 1020px) {
   .about__wrap > h2 {
     font-family: "papyrus";
-    /* padding-bottom: 2rem; */
-    /* border-bottom: 1px solid black; */
   }
   .about {
     padding-top: 5rem;

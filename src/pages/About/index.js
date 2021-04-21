@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import geometry from "./../../Assets/About/geometry.png";
 
 const About = () => {
   return (

@@ -1,8 +1,10 @@
 import React from "react";
+import "./index.css";
+
+//Components
 import PremiumCameras from "../../Components/PremiumCameras";
 import Reddit from "../../Components/Reddit";
 import Smalltalk from "../../Components/Smalltalk";
-import "./index.css";
 
 const Projects = () => {
   return (

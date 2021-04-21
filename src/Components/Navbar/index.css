@@ -15,6 +15,7 @@
   height: auto;
   padding-left: 1.4rem;
   margin-bottom: 0.7rem;
+  cursor: pointer;
 }
 .nav {
   display: none;

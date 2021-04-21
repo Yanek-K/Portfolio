@@ -48,6 +48,11 @@
   color: white;
   margin-right: 5rem;
   text-align: center;
+  cursor: pointer;
+}
+
+.buttons :hover {
+  color: #e55d6f;
 }
 
 .resume {
@@ -59,6 +64,11 @@
   border-radius: 10px;
   color: white;
   text-align: center;
+}
+
+.resume > a {
+  text-decoration: none;
+  color: white;
 }
 
 @media only screen and (min-width: 400px) {
@@ -113,7 +123,6 @@
     width: 100%;
     margin-top: 1.5rem;
     font-size: 1.3rem;
-    /* justify-content: center; */
   }
 
   .projects {

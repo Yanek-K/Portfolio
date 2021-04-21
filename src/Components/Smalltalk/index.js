@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+
+//Images
 import Logo from "./../../Assets/Projects/Smalltalk/Logo.png";
 import smalltalk from "./../../Assets/Projects/Smalltalk/smalltalk.png";
 import Technologies2 from "./../../Assets/Projects/Smalltalk/Technologies2.png";

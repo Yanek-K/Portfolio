@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+
+//Images
 import Logo from "./../../Assets/Projects/Notreddit/Logo.png";
 import notreddit from "./../../Assets/Projects/Notreddit/notreddit.png";
 import Technologies3 from "./../../Assets/Projects/Notreddit/Technologies3.png";

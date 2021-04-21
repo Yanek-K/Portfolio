@@ -1,8 +1,11 @@
 import React from "react";
 import "./index.css";
+
+//Images
 import Logo from "./../../Assets/Projects/PremiumCameras/Logo.jpg";
 import premiumCameras from "./../../Assets/Projects/PremiumCameras/PremiumCameras.png";
 import Technologies1 from "./../../Assets/Projects/PremiumCameras/Technologies1.png";
+
 const PremiumCameras = () => {
   return (
     <div className="cameras__wrap">

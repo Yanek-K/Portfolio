@@ -3,7 +3,6 @@
   flex-direction: column;
   padding-top: 3rem;
   padding-bottom: 2rem;
-  /* align-items: center; */
   text-align: center;
   background-color: #201f1c;
   height: 70vh;
@@ -56,14 +55,12 @@
   right: 0;
   z-index: 10;
   margin-top: -3rem;
-  /* width: 30%; */
   width: 400px;
 }
 
 @media only screen and (min-width: 700px) {
   .contact__info {
     margin-top: 5rem;
-    /* width: 50%; */
   }
 }
 
@@ -87,7 +84,6 @@
   }
   .geometry {
     margin-top: -15rem;
-    /* width: 45%; */
     width: 400px;
   }
 }
@@ -112,7 +108,6 @@
   }
   .geometry {
     margin-top: -25rem;
-    /* width: 45%; */
     width: 480px;
   }
 }

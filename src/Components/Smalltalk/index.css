@@ -77,7 +77,6 @@
   width: 25%;
   text-align: center;
   border-radius: 10px;
-  /* font-size: 1rem; */
 }
 
 .smalltalk__code {
@@ -87,7 +86,6 @@
   width: 25%;
   text-align: center;
   border-radius: 10px;
-  /* font-size: 1.2rem; */
 }
 .smalltalk__tech {
   font-family: "papyrus";
@@ -295,7 +293,6 @@
   }
 
   .smalltalk__right > h2 {
-    /* font-family: "serif"; */
     font-size: 1.3rem;
   }
   .smalltalk__tech__img {

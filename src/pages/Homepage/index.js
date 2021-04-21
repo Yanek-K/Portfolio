@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-scroll";
+
+//Images and PDF
 import logo from "./../../Assets/Home/logo.png";
 import "./index.css";
 import Resume from "./../../Files/Resume.pdf";
-import { Link } from "react-scroll";
-import { Link as Linker } from "react-router-dom";
-import { Document, Page } from "react-pdf";
 
 const Homepage = () => {
   return (

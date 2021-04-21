@@ -57,7 +57,7 @@ const Navbar = () => {
           smooth
           spy={true}
           to="Contact"
-          offset={-100}
+          offset={-80}
           duration={1400}
           className="btn"
           activeClass="active"

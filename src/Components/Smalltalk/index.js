@@ -13,11 +13,11 @@ const Smalltalk = () => {
           <img src={smalltalk} className="smalltalk__view" alt="view" />
         </div>
         <div className="smalltalk__right">
-          <h2>
+          <p>
             A Chat Application based on Twitter where users can create a
             profile, upload their profile image and post to the conversation.
             Likes, comments and history are all managed by Redux.
-          </h2>
+          </p>
           <div className="smalltalk__buttons">
             <div className="smalltalk__project">View Project</div>
             <div className="smalltalk__code">View Code</div>

@@ -38,11 +38,12 @@
   margin: 2rem auto;
 }
 
-.smalltalk__right > h2 {
-  font-size: 1.2rem;
+.smalltalk__right > p {
+  font-size: 1.1rem;
   font-weight: 200;
   line-height: 2rem;
   text-align: center;
+  font-family: "comic sans ms";
 }
 
 .smalltalk__buttons {

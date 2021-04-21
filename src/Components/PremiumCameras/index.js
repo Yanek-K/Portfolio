@@ -12,11 +12,11 @@ const PremiumCameras = () => {
           <img src={premiumCameras} className="premium__view" alt="view" />
         </div>
         <div className="cameras__right">
-          <h2>
+          <p>
             A Full-Stack, E-Commerce store for Premium Cameras Co. Based in
             Toronto, the store specializes in vintage film cameras and ships
             worldwide.
-          </h2>
+          </p>
           <div className="cameras__buttons">
             <div className="cameras__project">
               <a href="https://www.premiumcameras.ca" target="_blank">

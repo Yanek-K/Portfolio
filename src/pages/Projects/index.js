@@ -7,7 +7,7 @@ import "./index.css";
 const Projects = () => {
   return (
     <div className="projects__wrap" id="Projects">
-      <h1 className="project__header">Projects</h1>
+      <h1 className="project__header">The Projects</h1>
       <div className="projects__main">
         <div className="project__cameras">
           <h2 className="project__info">E-Commerce Store</h2>

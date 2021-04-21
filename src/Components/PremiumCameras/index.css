@@ -38,17 +38,18 @@
   margin: 2rem auto;
 }
 
-.cameras__right > h2 {
-  font-size: 1.2rem;
-  font-weight: 200;
+.cameras__right > p {
+  font-size: 1.1rem;
+  /* font-weight: 200; */
   line-height: 2rem;
   text-align: center;
+  font-family: "comic sans ms";
 }
 
 .cameras__buttons {
   display: flex;
   width: 100%;
-  font-size: 1rem;
+
   justify-content: space-evenly;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -58,6 +59,8 @@
 .cameras__project > a {
   text-decoration: none;
   color: white;
+  font-family: "papyrus";
+  font-size: 1.1rem;
 }
 
 .cameras__project {
@@ -73,6 +76,8 @@
 .cameras__code > a {
   text-decoration: none;
   color: white;
+  font-family: "papyrus";
+  font-size: 1.1rem;
 }
 
 .cameras__code {
@@ -171,11 +176,11 @@
   }
 
   .cameras__project {
-    width: 23%;
+    width: 25%;
   }
 
   .cameras__code {
-    width: 23%;
+    width: 25%;
   }
 
   .cameras__tech {
@@ -242,6 +247,14 @@
   .cameras__code {
     width: 25%;
   }
+
+  .cameras__project > a {
+    font-size: 1.2rem;
+  }
+
+  .cameras__code > a {
+    font-size: 1.2rem;
+  }
   .cameras__tech__img {
     margin-top: 2rem;
   }
@@ -273,6 +286,14 @@
 
   .cameras__right {
     width: 80%;
+  }
+
+  .cameras__project {
+    width: 20%;
+  }
+
+  .cameras__code {
+    width: 20%;
   }
 
   .cameras__right > h2 {

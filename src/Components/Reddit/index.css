@@ -38,8 +38,9 @@
   margin: 2rem auto;
 }
 
-.reddit__right > h2 {
-  font-size: 1.2rem;
+.reddit__right > p {
+  font-size: 1.1rem;
+  font-family: "Comic Sans Ms";
   font-weight: 200;
   line-height: 2rem;
   text-align: center;

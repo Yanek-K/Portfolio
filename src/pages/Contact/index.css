@@ -1,43 +1,118 @@
 .contact {
   display: flex;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
-  margin-bottom: 1rem;
   background-color: #201f1c;
-  height: 100vh;
+  height: 70vh;
 }
 
-.contact > h2 {
+.contact__header {
+  height: 150px;
+  background-color: #45432a;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__header > h2 {
   font-family: "papyrus";
-  /* border-bottom: 1px solid white; */
   font-size: 2rem;
-  /* font-size: 2.3rem; */
   font-weight: 200;
   margin-bottom: 1.5rem;
-  color: #918d46;
+  color: #f0ede4;
   margin-top: 2rem;
 }
 
-.contact > p {
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 4rem;
+}
+.contact__info__header {
   line-height: 3.5rem;
   font-size: 1.2rem;
-  width: 75%;
   font-family: "papyrus";
   color: white;
-  word-spacing: 0.5rem;
-  /* margin-left: 1rem; */
+  letter-spacing: 0.12rem;
+}
+
+.contact__info__info {
+  line-height: 3.5rem;
+  font-size: 1.2rem;
+  font-family: "papyrus";
+  color: white;
+  letter-spacing: 0.12rem;
+  margin-bottom: 3rem;
+}
+
+.geometry {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  margin-top: -3rem;
+  /* width: 30%; */
+  width: 400px;
+}
+
+@media only screen and (min-width: 700px) {
+  .contact__info {
+    margin-top: 5rem;
+    /* width: 50%; */
+  }
 }
 
 @media only screen and (min-width: 1000px) {
-  .contact > h2 {
-    font-size: 2.2rem;
+  .contact {
+    padding-top: 8rem;
+    height: 80vh;
+  }
+  .contact__header {
+    height: 150px;
   }
 
-  .contact > p {
-    line-height: 4rem;
-    font-size: 1.4rem;
+  .contact__header > h2 {
+    font-size: 2rem;
+  }
+
+  .contact__info {
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+  }
+  .geometry {
+    margin-top: -15rem;
+    /* width: 45%; */
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact__info {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .contact__header > h2 {
+    font-size: 2.3rem;
+  }
+
+  .contact__email {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .contact__info {
+    width: 100%;
+  }
+  .geometry {
+    margin-top: -25rem;
+    /* width: 45%; */
+    width: 480px;
   }
 }

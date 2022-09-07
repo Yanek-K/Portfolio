@@ -23,7 +23,7 @@ const Reddit = () => {
           <div className="reddit__buttons">
             <div className="reddit__project">
               {" "}
-              <a href="https://www.notreddit.online/" target="_blank">
+              <a href="http://not-reddit.yanek-k.com//" target="_blank">
                 View Project
               </a>
             </div>

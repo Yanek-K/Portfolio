@@ -10,20 +10,18 @@ const About = () => {
           <p>
             <strong className="about__strong">B</strong>orn in Toronto, I grew
             up in Southern Africa and travelled around the world for most of my
-            life. I have lived in Africa, Europe and North America.
+            teenage life.
             <br />
             <br />
-            <strong className="about__strong">I</strong> am very good with
-            people and work well as part of a team.
+            <strong className="about__strong">I</strong> have had the opportunity to learn about different cultures, try many, many activites and learn a few languages along the way.
             <br />
             <br />
             <strong className="about__strong">W</strong>hen I am not sitting at
             my desk writing code, you can find me walking the streets of Toronto
-            with my camera or in a darkroom making black and white prints.
+            with my camera, in a darkroom making black and white prints, or rock climbing indoors.
             <br />
             <br />
-            <strong className="about__strong">I</strong> enjoy taking the lead
-            on projects and learning new things.{" "}
+            <strong className="about__strong">I</strong> believe in life-long learning and thus far, it has served me very well.
           </p>
         </div>
       </div>

@@ -23,7 +23,7 @@ const Smalltalk = () => {
           <div className="smalltalk__buttons">
             <div className="smalltalk__project">
               {" "}
-              <a href="https://www.small-talk.online/login" target="_blank">
+              <a href="http://smalltalk.yanek-k.com/" target="_blank">
                 View Project
               </a>
             </div>

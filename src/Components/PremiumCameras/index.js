@@ -22,7 +22,7 @@ const PremiumCameras = () => {
           </p>
           <div className="cameras__buttons">
             <div className="cameras__project">
-              <a href="https://www.premiumcameras.ca" target="_blank">
+              <a href="https://premiumcameras.yanek-k.com/" target="_blank">
                 View Project
               </a>
             </div>

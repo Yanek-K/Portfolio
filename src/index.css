@@ -1,17 +1,44 @@
 html {
-  background-color: #201f1c;
+  background-color: #fff;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: --var(--primary-font-family);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --navy: #0a192f;
+  --green: #64ffda;
+  --slate: #8892b0;
+  --white: #e6f1ff;
+  --primary-font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.button-main {
+  margin: 0 auto;
+  background-color: var(--navy);
+  padding: 0.6rem 1.6rem;
+  border: 1px solid var(--green);
+  border-radius: 40px;
+  color: var(--green);
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}
+
+.buttons :hover {
+  color: #e55d6f;
 }

@@ -10,10 +10,15 @@ const Homepage = () => {
   return (
     <div className="home__wrap" id="Home">
       <div className="inner-wrap">
-        <img src={logo} alt="logo" className="home__logo" />
         <div className="home__main">
+          <p>Hi, my name is</p>
           <h2>Yanek K.</h2>
-          <p>Front End Web Developer and Designer</p>
+          <h3>I build things for the web</h3>
+          <p>
+            I am a software developer specializing in building and designing
+            digital experiences. Currently, I work at Cria Design Agency where I
+            am focused on building accessible web experiences.
+          </p>
           <div className="buttons">
             <Link
               activeClass="active"
@@ -23,18 +28,20 @@ const Homepage = () => {
               smooth={true}
               spy={true}
               exact
-              className="projects"
+              className="button-main"
               activeClassName="active"
             >
-              My Projects
+              Get In Touch
             </Link>
-            <div className="resume">
+            <div className="button-main">
               <a href={Resume} download>
                 Resume
               </a>
             </div>
           </div>
         </div>
+        <div classname="home__logo"></div>
+        <img src={logo} alt="logo" className="home__logo" />
       </div>
     </div>
   );

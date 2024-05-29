@@ -1,9 +1,9 @@
 .home__wrap {
   display: flex;
-  background-color: #201f1c;
+  background-color: var(--navy);
   height: 100vh;
-  font-family: "papyrus";
-  color: #f0ede4;
+  font-family: "montserrat";
+  color: var(--slate);
 }
 
 .inner-wrap {
@@ -12,23 +12,33 @@
   align-items: center;
   margin-top: 11rem;
 }
+
 .home__logo {
   margin-left: 0rem;
   margin-bottom: 6rem;
   width: 40%;
 }
 .home__main {
-  text-align: center;
+  /* text-align: center; */
+  width: 35%;
 }
 .home__main > h2 {
   font-size: 2.3rem;
   font-weight: 200;
   margin-bottom: 1.5rem;
-  color: #918d46;
+  color: var(--white);
+}
+
+.home__main > h3 {
+  font-size: 2.6rem;
+  font-weight: 200;
+  margin-bottom: 1.5rem;
+  color: var(--slate);
 }
 
 .home__main > p {
   font-size: 1rem;
+  color: var(--white);
 }
 
 .buttons {
@@ -39,37 +49,10 @@
   margin-top: 2rem;
   height: 20px;
 }
-.projects {
-  width: 30%;
-  height: 20px;
-  margin: 0 auto;
-  background-color: #918d46;
-  padding: 0.9rem;
-  border-radius: 10px;
-  color: white;
-  margin-right: 5rem;
-  text-align: center;
-  cursor: pointer;
-}
 
-.buttons :hover {
-  color: #e55d6f;
-}
-
-.resume {
-  width: 30%;
-  height: 20px;
-  margin: 0 auto;
-  background-color: #918d46;
-  padding: 0.9rem;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
-}
-
-.resume > a {
+a {
   text-decoration: none;
-  color: white;
+  color: var(--gren);
 }
 
 @media only screen and (min-width: 400px) {
